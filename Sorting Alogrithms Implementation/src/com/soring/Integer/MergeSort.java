@@ -65,7 +65,7 @@ public class MergeSort {
 			arr[i] = sc.nextInt();
 		}
 		sort(arr);
-		System.out.println("Array Sorted by unsing Bouble Sort Technique");
+		System.out.println("Array Sorted by unsing Merge Sort Technique");
 
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");
