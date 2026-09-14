@@ -64,8 +64,9 @@ public class MergeSort {
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		sc.close();
 		sort(arr);
-		System.out.println("Array Sorted by unsing Merge Sort Technique");
+		System.out.println("Array Sorted by using Merge Sort Technique");
 
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");

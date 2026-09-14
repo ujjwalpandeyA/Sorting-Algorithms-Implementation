@@ -31,8 +31,9 @@ public class SelectionSort {
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		sc.close();
 		sort(arr);
-		System.out.println("Array Sorted by unsing Selection Sort Technique");
+		System.out.println("Array Sorted by u7sing Selection Sort Technique");
 
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");
